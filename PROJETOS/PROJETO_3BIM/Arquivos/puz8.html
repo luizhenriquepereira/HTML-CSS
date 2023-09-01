@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>monospace</title>
+</head>
+<body>
+
+	<center>
+
+	<p class="tit3">Vidi, et ante me equus fulvus. <br> Elogium eius mors appellata est, <br>et inferus a tergo sequebatur. <br>Et data est illis potestas super <br>quartam partem terrae, ut <br>interficeret in gladio et fame <br> et in plagis et in bestiis <br>terrae.</p>
+
+	<input class="text" type="text" name="Resposta" style="width: 200px; height: 30px;" id="resp"><br><br>
+	<input class="bot" type="button" value="Enviar código"style="width: 200px; height: 30px;" onclick="env()"><br><br>
+	<input class="bot" type="button" value="?" style="width: 30px; height: 30px;"onclick="msg()">
+
+	<script>
+		
+		function msg(){
+
+			alert("De onde saiu?");
+
+		}
+
+		function env(){
+
+ 			var res = document.getElementById('resp').value;
+
+ 			if(res=="apocalipse"||res=="APOCALIPSE"||res=="Apocalipse"){
+
+ 				location= "puz9.html"
+
+ 			}
+ 			
+		}
+
+
+
+	</script>
+
+</body>
+</html>

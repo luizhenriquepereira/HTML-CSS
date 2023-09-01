@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>monospace</title>
+</head>
+<body>
+
+	<center>
+
+		<table class="tome">
+
+		<tr><td class="th"></td><td class="th"></td><td class="th"></td><td class="th2"></td><td class="th"></td><td class="th"></td><td class="th"></td><td class="th"></td><td class="th"></td></tr><br>
+
+		<tr><td class="th"></td><td class="th"></td><td class="th"></td><td class="th"></td><td class="th2"></td><td class="th"></td></tr>
+
+		<tr><td class="th"></td><td class="th"></td><td class="th2"></td><td class="th"></td><td class="th"></td></tr>
+
+		<tr><td class="th"></td><td class="th"></td><td class="th"></td><td class="th"></td><td class="th2"></td><td class="th"></td><td class="th"></td><td class="th"></td></tr>
+		
+		<tr><td class="th2"></td><td class="th"></td><td class="th"></td><td></td><td class="th"></td><td class="th"></td><td class="th"></td><td class="th"></td><td class="th"></td></tr>
+
+		<tr><td class="th2"></td><td class="th"></td><td class="th"></td><td class="th"></td></tr>
+
+		<tr><td class="th"></td><td class="th"></td><td class="th"></td><td class="th2"></td><td class="th"></td><td class="th"></td><td class="th"></td><td class="th"></td><td class="th"></td><td class="th"></td></tr>
+
+		<tr><td class="th"></td><td class="th"></td><td class="th"></td><td class="th"></td><td class="th"></td><td class="th"></td><td class="th2"></td><td class="th"></td><td class="th"></td><td class="th"></td></tr>
+
+		<tr><td class="th"></td><td class="th"></td><td class="th"></td><td class="th2"></td><td class="th"></td><td class="th"></td><td class="th"></td></tr>
+		</table>
+
+	<input class="text" type="text" name="Resposta" style="width: 200px; height: 30px;" id="resp"><br><br>
+	<input class="bot" type="button" value="Enviar código"style="width: 200px; height: 30px;" onclick="env()"><br><br>
+	<input class="bot" type="button" value="?" style="width: 30px; height: 30px;"onclick="msg()">
+
+
+	<script>
+		
+		function msg(){
+
+			alert("Seguiu a dica da primeira fase?");
+
+		}
+
+		function env(){
+
+ 			var res = document.getElementById('resp').value;
+
+ 			if(res=="monospace"||res=="MONOSPACE"||res=="Monospace"){
+
+ 				location= "fim.html"
+
+ 			}
+ 			if(res=="monospaçe"||res=="MONOSPAÇE"){
+
+ 				alert("Monospace tem cidilha?");
+
+ 			}
+		}
+
+
+
+	</script>
+
+</body>
+</html>

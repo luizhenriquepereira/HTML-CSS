@@ -1,0 +1,13 @@
+﻿1. intro - priMórdio
+2. morse - amadOr
+3. cifra de césar - taNso
+4. binário - medíOcre
+5. joguinho de palavras - Sem erros
+6. scroll surpresa- Poço
+7. senha invisível - sofrimento / mArtírio
+8. trecho apocalipse - apoCalipse
+9. codigo em c - espErto 
+10. junção de todos os códigos - MONOSPACE
+fim. 
+
+

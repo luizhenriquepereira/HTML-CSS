@@ -1,0 +1,152 @@
+body{
+
+	background: black;
+
+}
+
+.scrll{
+
+	overflow-y: scroll;
+
+}
+
+.scrll::-webkit-scrollbar {
+ 
+  display: none;
+
+}
+
+h1{
+
+	font-family: monospace;
+	color: white;
+	text-align: center;
+	font-size: 60px;
+	padding-top: 200px;
+
+}
+
+.bot{
+
+	font-family: monospace;
+	background: black;
+	color: white;
+	border: 0;
+	font-size: 15px;
+
+
+}
+
+.bot:hover {
+
+    background-color: #333333;
+
+}
+
+.bot:active {
+
+    background-color: black;
+}
+
+.text{
+
+	margin-top: 300px;
+	border: solid 1px #333333;
+	background: black;
+	color: whitesmoke;
+	font-size: 18px;
+	text-align: center;
+	font-family: monospace;
+
+}
+
+.tit{
+
+	margin-top: 200px;
+	color: white;
+	font-family: monospace;
+	font-size: 50px;
+	margin-bottom: -250px;
+
+}
+
+.h{
+
+	color: black;
+
+}
+
+.tit2{
+
+	margin-top: 200px;
+	color: white;
+	font-family: monospace;
+	font-size: 25px;
+	margin-bottom: -250px;
+
+}
+
+.tit3{
+
+	margin-top: 200px;
+	color: white;
+	font-family: monospace;
+	font-size: 20px;
+	margin-bottom: -250px;
+
+}
+
+.C{
+
+	font-family: monospace;
+	margin-top: -100px;
+	margin: auto;
+	text-align: left;
+	width: 200px;
+
+}
+
+.up{
+
+	margin-top: -100px;
+
+}
+
+.tab{
+
+	background: black;
+	color: white;
+	width: 55px;
+	height: 35px;
+
+	border: solid 1px #333333;
+
+}
+
+.tome{
+
+	margin-top: 70px;
+	margin-bottom: -250px;
+
+}
+
+.th{
+
+	height: 15px;
+	width: 15px;
+	color: white;
+	border:  solid 2px #333333;
+	text-align: center;
+
+}
+
+.th2{
+
+	background: #333333;
+	height: 15px;
+	width: 15px;
+	color: white;
+	border:  solid 2px #333333;
+	text-align: center;
+
+}

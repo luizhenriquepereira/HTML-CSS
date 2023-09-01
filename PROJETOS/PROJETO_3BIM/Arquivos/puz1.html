@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>monospace</title>
+</head>
+<body>
+
+	<center>
+
+		<p class="tit">Primórdio</p>
+
+	<input class="text" type="text" name="Resposta" style="width: 200px; height: 30px;" id="resp"><br><br>
+	<input class="bot" type="button" value="Enviar código"style="width: 200px; height: 30px;" onclick="env()"><br><br>
+	<input class="bot" type="button" value="?" style="width: 30px; height: 30px;"onclick="msg()">
+
+	<script>
+		
+		function msg(){
+
+			alert("Insira os códigos para prosseguir. Seu primeiro código está à sua frente. Eu anotaria os códigos se fosse você. Boa sorte.");
+
+		}
+
+		function env(){
+
+ 			var res = document.getElementById('resp').value;
+
+ 			if(res=="PRIMÓRDIO"||res=="primórdio"||res=="Primórdio"){
+
+ 				location = "puz2.html"
+
+ 			}
+ 			if(res=="PRIMORDIO"||res=="primordio"||res=="Primordio"){
+
+ 				alert("Escreva os códigos corretamente.");
+
+ 			}
+		}
+
+
+
+	</script>
+
+</body>
+</html>

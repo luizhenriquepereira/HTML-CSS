@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>monospace</title>
+</head>
+<body>
+
+	<center>
+	<p class="tit3">
+		Quanto<b class="h">M</b>mais<b class="h">A</b>perfeito<b class="h">R</b>é<b class="h">T</b>algo,<br><b class="h">Í</b>mais<b class="h">R</b>dor<b class="h">I</b>e<b class="h">O</b>prazer sentimos.
+	</p>
+
+	<input class="text" type="text" name="Resposta" style="width: 200px; height: 30px;" id="resp"><br><br>
+	<input class="bot" type="button" value="Enviar código"style="width: 200px; height: 30px;" onclick="env()"><br><br>
+	<input class="bot" type="button" value="?" style="width: 30px; height: 30px;"onclick="msg()">
+
+	<script>
+		
+		function msg(){
+
+			alert("Às vezes, quando queremos algo, devemos SELECIONAR bem nossos aliados, sabe.");
+
+		}
+
+		function env(){
+
+ 			var res = document.getElementById('resp').value;
+
+ 			if(res=="martírio"||res=="MARTÍRIO"||res=="Martírio"){
+
+ 				location= "puz8.html"
+
+ 			}
+ 			if(res=="martirio"||res=="MARTIRIO"||res=="Martirio"){
+
+ 				alert("Já ouviu falar em acentos?");
+
+ 			}
+ 			if(res=="selecionar"||res=="SELECIONAR"||res=="Selecionar"){
+
+ 				alert("Não é bem por aí. Melhor fazer do que escrever.");
+
+ 			}
+		}
+
+
+
+	</script>
+
+</body>
+</html>

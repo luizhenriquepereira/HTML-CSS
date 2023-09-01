@@ -1,0 +1,45 @@
+we<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>monospace</title>
+</head>
+<body>
+
+	<center>
+
+	<p style="margin-top: 100px;color: white;margin-bottom: -200px;margin-top: 200px ;">
+	.- -- .- -.. --- .-.
+	</p>
+
+	<input class="text" type="text" name="Resposta" style="width: 200px; height: 30px;" id="resp"><br><br>
+	<input class="bot" type="button" value="Enviar código"style="width: 200px; height: 30px;" onclick="env()"><br><br>
+	<input class="bot" type="button" value="?" style="width: 30px; height: 30px;"onclick="msg()">
+
+	<script>
+		
+		function msg(){
+
+			alert("Código morse?");
+
+		}
+
+		function env(){
+
+ 			var res = document.getElementById('resp').value;
+
+ 			if(res=="amador"||res=="AMADOR"||res=="Amador"){
+
+ 				window.location.href = "puz3.html"
+
+ 			}
+		}
+
+
+
+	</script>
+
+</body>
+</html>
