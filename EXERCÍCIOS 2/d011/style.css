@@ -1,0 +1,6 @@
+main > #primeiroDiv{
+
+    background: gray url(imagens/img1.avif) center center no-repeat fixed;
+    background-size: cover;
+
+}
