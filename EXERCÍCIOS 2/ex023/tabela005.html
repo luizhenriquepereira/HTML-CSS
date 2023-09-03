@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecercício de Tabelas</title>
+</head>
+<style>
+
+body{
+
+font-family: Arial, Helvetica, sans-serif;
+
+}
+
+caption{
+
+    font-size: 1.5em;
+    font-weight: bold;
+
+}
+
+table{
+
+width: 500px;
+border-collapse: collapse;
+margin: auto;
+
+}
+
+thead > tr > th{
+
+background-color: gray;
+color: white;
+
+}
+
+td, th{
+
+padding: 5px;
+text-align: center;
+border: 1px solid black;
+
+}
+
+.grayBack{
+
+background-color: gray;
+color: white;
+
+}
+
+.colNome{
+
+    background-color: gray;
+
+}
+
+.colGrupo{
+
+    background-color: aliceblue;
+
+}
+
+</style>
+<body>
+    
+    <h1>Exercício de Tabelas</h1>
+
+    <table>
+
+        <colgroup>
+        
+            <col class="colNome">
+            <col class="colGrupo" span="3">
+
+        </colgroup>
+
+        <caption>Cadastro</caption>
+
+        <tr>
+
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+
+        </tr>
+        <tr>
+
+            <td>Ana Maria</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jornalista</td>
+
+        </tr>
+        <tr>
+
+            <td>Ana Maria</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jornalista</td>
+
+        </tr>
+        <tr>
+
+            <td>Ana Maria</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jornalista</td>
+
+        </tr>
+        <tr>
+
+            <td>Ana Maria</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jornalista</td>
+
+        </tr>
+        <tr>
+
+            <td>Ana Maria</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jornalista</td>
+
+        </tr>
+
+    </table>
+
+</body>
+</html>
