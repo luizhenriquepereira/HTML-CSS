@@ -1,6 +1,140 @@
-main > #primeiroDiv{
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Oswald:wght@200;300&family=Passion+One&display=swap');
 
-    background: gray url(imagens/img1.avif) center center no-repeat fixed;
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Oswald:wght@200;300&family=Passion+One&family=Sriracha&display=swap');
+
+*{
+
+    margin: 0;
+
+}
+
+header{
+
+    background-color: black;
+
+}
+
+header > h1{
+
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+
+    font-family: 'Passion One', cursive;
+    font-size: 10vw;
+
+}
+
+header > p{
+
+    color: white;
+    text-align: center;
+    padding-bottom: 50px;
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+header > p > a{
+
+    text-decoration: none;
+    color: white;
+
+}
+
+
+
+main > .divComum{
+
+    padding: 80px 30px;
+
+}
+
+main > .divComum > p{
+
+    color: black;
+    font-family: 'Sriracha', cursive;
+    font-size: 3vw;
+
+}
+
+
+
+main > #primeiraImagem{
+
+    background: gray url(imagens/background001.jpg) center center no-repeat fixed;
     background-size: cover;
+
+    padding: 80px 30px;
+
+    
+    border: 2px solid white;
+
+}
+
+main > #primeiraImagem > p{
+
+    color: white;
+    font-family: 'Sriracha', cursive;
+    font-size: 3vw;
+
+}
+
+
+
+main > #segundaImagem{
+
+    background: gray url(imagens/background002.jpg) center center no-repeat fixed;
+    background-size: cover;
+
+    padding: 80px 30px;
+
+} 
+
+main > #segundaImagem > p{
+
+    color: white;
+    font-family: 'Sriracha', cursive;
+    font-size: 3vw;
+
+}
+
+
+.texto{
+
+    background-color: rgba(0, 0, 0, 0.486);
+    padding: 10px 10px;
+
+}
+
+.texto > p{
+
+    color: white;
+    font-family: 'Sriracha', cursive;
+    font-size: 3vw;
+
+}
+
+
+
+footer{
+
+    padding: 10px;
+    background-color: black;
+
+}
+
+footer > p{
+
+    color: white;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+footer > p > a{
+
+    text-decoration: none;
+    color: white;
 
 }
