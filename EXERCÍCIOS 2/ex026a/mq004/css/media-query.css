@@ -1,9 +1,47 @@
 @media print {
 
+    body{
 
-    
+        font-family: 'Courier New', Courier, monospace;
+
+    }
+
+    main h1{
+
+        text-shadow: none;
+        color: black;
+
+    }
+
+    main{
+
+        border: solid 2px black;
+
+    }
+
+    main::after{
+
+        content: "Impressão feita por mim.";
+
+    }
+
+    #print{display: block;}
+    img{display: none;}
+
 }
 
+@media screen and (min-width: 600px) and (max-width: 768px){
+
+    body{
+
+        background-image: url(../imagens/back-phone.jpg);
+
+    }
+
+    #phone{display: block;}
+    img{display: none;}
+
+}
 
 @media screen and (min-width: 768px) and (max-width: 992px){
 
@@ -13,16 +51,34 @@
 
     }
 
-}
-
-@media screen and (min-width: 992px) and (max-width: 1200x){
-
-    
+    #tablet{display: block;}
+    img{display: none;}
 
 }
 
-@media screen and (min-width: 992px){
+@media screen and (min-width: 992px) and (max-width: 1200px){
 
-    
+    body{
+
+        background-image: url(../imagens/back-pc.jpg);
+
+    }
+
+    #pc{display: block;}
+    img{display: none;}
+
+
+}
+
+@media screen and (min-width: 1200px){
+
+    body{
+
+        background-image: url(../imagens/back-tv.jpg);
+
+    }
+
+    #tv{display: block;}
+    img{display: none;}
 
 }
